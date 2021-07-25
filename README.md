@@ -15,6 +15,8 @@ pip install -r requirements.txt
 
 Copy the file contents to where you want the directories to form
 
+Open the CP.ahk file in notepad and add your python PATH at the specified location
+
 Activate the autohotkey script and simply press  <kbd >Right Ctrl</kbd><kbd >M</kbd> and enter the contest number and press <kbd >Enter</kbd> or "Run" button and VS Code will open up with everything already setup.
 
 Once you restart your computer, you will have to again activate the script, but a simple workaround is to place the shortcut of the script in ` C:\Users\$User$\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup  ` directory. [Press <kbd >Win</kbd><kbd >R</kbd> and enter `shell:startup` to open this directory directly].
