@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 
+using namespace std;
+
 #define TESTING
 
 #ifdef TESTING 
@@ -28,16 +30,14 @@ typedef vector<ll> vl;
 typedef vector<vl> vvl;
 
 
-using namespace std;
-
 
 int main()
 {
     ios::sync_with_stdio(false);
-
+    #ifndef ONLINE_JUDGE
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
-
+    #endif // ONLINE_JUDGE
     int count , n;
     ll arr[100000];
 
